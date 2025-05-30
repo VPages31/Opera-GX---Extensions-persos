@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "YT Shorts Notif Filter (Inline Button)",
+  "version": "1.4",
+  "description": "Filtre les Shorts dans les notifications YouTube, avec un bouton intégré dans l'interface.",
+  "permissions": ["storage", "scripting", "tabs"],
+  "host_permissions": ["*://www.youtube.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "No Shorts Toggle",
+    "default_icon": {
+      "16": "icons/opera_gx_icon_16x16.png",
+      "32": "icons/opera_gx_icon_32x32.png",
+      "48": "icons/opera_gx_icon_48x48.png",
+      "128": "icons/opera_gx_icon_128x128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
