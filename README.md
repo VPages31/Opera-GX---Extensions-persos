@@ -1,6 +1,6 @@
 # Opera-GX---Extensions-persos
-Mes extensions custom pour Opera GX / Chrome / Chromium (même engine)
+My custom extensions for Opera GX / Chrome / Chromium (same engine)
 
-Pour l'installer, se rendre dans l'onglet des extensions, cliquez sur "Mode développeur", puis "Charger l'extension non-empaquetée" et sélectionner le repertoire "NoShortYt" depuis votre stockage.
-
-Have fun !!
+1 - Download "Opera-GX---Extensions-persos-main", unzip it on your disk.
+2 - Go to the "Extensions" tab, then click on "Developer mode", then "Load un-packaged extension", and select the "NoShortYt" repository from your disk, located in the repository you just unzipped.
+3 - Have fun !!
